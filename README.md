@@ -42,6 +42,44 @@ With the HTML DOM, JavaScript can access and change all the elements of an HTML 
    Object.style.display = "block"; It can be used to show the elemtn;
    
  5.object.className = classname;
+ 
+ Array:
+ 
+ If you want to add new element to the array a,just use a[new index]=element;
+ 
+ Function:
+ 
+ Define a new function
+ 
+ function  name( )
+{
+     //implement the function
+}
+
+Clikc a button and excute a function: <input type="button"  value="click me" onclick="function()">  
+
+
+Event:
+
+HTML events are "things" that happen to HTML elements.
+
+
+When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+
+An HTML event can be something the browser does, or something a user does.
+
+Here are some examples of HTML events:
+
+An HTML web page has finished loading
+An HTML input field was changed
+An HTML button was clicked
+Often, when events happen, you may want to do something.
+
+JavaScript lets you execute code when events are detected.
+
+HTML allows event handler attributes, with JavaScript code, to be added to HTML elements.
+ 
+ 
 
 
  
