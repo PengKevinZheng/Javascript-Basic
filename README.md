@@ -25,3 +25,20 @@ Interaction with user:
 
 5.window.open(URL, window's name, parameter list); a new window will come out. the parameter includes followwing: top. left, width,height, menubar,toolbar,scrollbar,status.
 
+About DOM:
+
+With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
+
+ 1.document.getElementById(“id”); get the element with it's ID;
+ 
+ 2.Object.innerHTML;Object is obtained by document.getElementById("ID"). It can be used to change the content of the Object.
+ 
+ 3.Object.style.property=new style; It can be used to change the style of certain Object. ex: mychar.style.color="red";
+   mychar.style.fontSize="20";
+   mychar.style.backgroundColor ="blue";
+   
+ 4.
+ 
+
+
+
