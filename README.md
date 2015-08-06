@@ -37,7 +37,13 @@ With the HTML DOM, JavaScript can access and change all the elements of an HTML 
    mychar.style.fontSize="20";
    mychar.style.backgroundColor ="blue";
    
- 4.
+ 4.Object.style.display ="none"; It can be used to hide the element;
+ 
+   Object.style.display = "block"; It can be used to show the elemtn;
+   
+ 5.object.className = classname;
+
+
  
 
 
