@@ -78,6 +78,17 @@ Often, when events happen, you may want to do something.
 JavaScript lets you execute code when events are detected.
 
 HTML allows event handler attributes, with JavaScript code, to be added to HTML elements.
+
+We have those usual events: 
+鼠标单击事件( onclick ）
+鼠标经过事件（onmouseover）
+鼠标移开事件（onmouseout）
+光标聚焦事件（onfocus）
+失焦事件（onblur）
+内容选中事件（onselect）
+文本框内容改变事件（onchange）
+加载事件（onload）
+卸载事件（onunload）
  
  
 
