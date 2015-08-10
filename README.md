@@ -80,15 +80,53 @@ JavaScript lets you execute code when events are detected.
 HTML allows event handler attributes, with JavaScript code, to be added to HTML elements.
 
 We have those usual events: 
+
 鼠标单击事件( onclick ）
+
 鼠标经过事件（onmouseover）
+
 鼠标移开事件（onmouseout）
+
 光标聚焦事件（onfocus）
+
 失焦事件（onblur）
+
 内容选中事件（onselect）
+
 文本框内容改变事件（onchange）
+
 加载事件（onload）
+
 卸载事件（onunload）
+
+Window Object:
+
+The window object represents an open window in a browser.
+
+There are lots of properties and methods in Window Object. I will list some of them:
+
+1.setInterval(code,time); code can be a function. time is in Millisecond.
+
+2.clearInterval()；it is used to cancel the time,ex: var hehe = setInterval("clock()",1000); clearInterval(myVar);
+
+history Object:
+
+history: The history object contains the URLs visited by the user. var HL =  window.history;  property: length;
+Method:
+
+back():	Loads the previous URL in the history list
+
+forward():	Loads the next URL in the history list
+
+go():	Loads a specific URL from the history list
+
+location Object:
+The location object contains information about the current URL.
+
+DOM Object: for HTML element:
+
+
+
  
  
 
