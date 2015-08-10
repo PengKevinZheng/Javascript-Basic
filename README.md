@@ -123,7 +123,15 @@ go():	Loads a specific URL from the history list
 location Object:
 The location object contains information about the current URL.
 
-DOM Object: for HTML element:
+DOM Object: 
+
+getElementById: to get a HTML element by ID.
+
+getElementsByName: retrun an array of elements by their names, because names can be duplicates.
+
+getElementsByTagName: return collection of HTMLelements by tags. 
+
+getAttribute: element.getAttribute(attributeName); element can be returned by document.getElementById(id);
 
 
 
