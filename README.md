@@ -135,6 +135,13 @@ getAttribute: element.getAttribute(attributeName); element can be returned by do
 
 setAttribute: element.setAttribute(name,value); set an element's attribut.
 
+节点类型	说明	                                                   值
+元素节点	每一个HTML标签都是一个元素节点，如 <div> 、 <p>、<ul>等	1
+属性节点	元素节点（HTML标签）的属性，如 id 、class 、name 等。	   2
+文本节点	元素节点或属性节点中的文本内容。	                        3
+注释节点	表示文档注释，形式为<!-- comment text -->。           	8
+文档节点	表示整个文档（DOM 树的根节点，即 document ）          	9
+
 
 
 
