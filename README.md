@@ -133,6 +133,10 @@ getElementsByTagName: return collection of HTMLelements by tags.
 
 getAttribute: element.getAttribute(attributeName); element can be returned by document.getElementById(id);
 
+setAttribute: element.setAttribute(name,value); set an element's attribut.
+
+
+
 
 
  
